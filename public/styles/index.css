@@ -1207,17 +1207,17 @@ main .index {
   opacity: 0;
 }
 .p-hero .p-hero__slide .slideshow .slideshow_image:nth-child(1) {
-  background-image: url("../../../public/images/hero01.webp");
+  background-image: url("/images/hero01.webp");
   animation-name: kenburns-1;
   z-index: 3;
 }
 .p-hero .p-hero__slide .slideshow .slideshow_image:nth-child(2) {
-  background-image: url("../../../public/images/hero02.webp");
+  background-image: url("/images/hero02.webp");
   animation-name: kenburns-2;
   z-index: 2;
 }
 .p-hero .p-hero__slide .slideshow .slideshow_image:nth-child(3) {
-  background-image: url("../../../public/images/hero03.webp");
+  background-image: url("/images/hero03.webp");
   animation-name: kenburns-3;
   z-index: 1;
 }
@@ -1359,7 +1359,7 @@ main .index {
   border-bottom: solid 1px #ffffff;
 }
 .p-worries ul li::before {
-  content: url("../../../public/images/check.svg");
+  content: url("/images/check.svg");
   margin-right: 0.5rem;
 }
 .p-worries ul .arrow {
@@ -1402,7 +1402,7 @@ main .index {
   height: auto;
 }
 .p-solution:nth-child(2) {
-  background-image: url("../../../public/images/bg01.webp");
+  background-image: url("/images/bg01.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1783,7 +1783,7 @@ main .index {
   width: 35px;
   aspect-ratio: 1;
   margin-right: 0.5rem;
-  background-image: url("../../../img/campaign19-20/reason_05.png ");
+  background-image: url("/images/reason_05.png ");
   background-repeat: no-repeat;
   background-size: contain;
 }

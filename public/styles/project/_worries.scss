@@ -34,7 +34,7 @@
       font-size: common.$font16pt;
       border-bottom: solid 1px common.$bg;
       &::before {
-        content: url("../../../public/images/check.svg");
+        content: url("/images/check.svg");
         margin-right: 0.5rem;
       }
     }

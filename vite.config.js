@@ -4,6 +4,14 @@ import nunjucks from "nunjucks";
 import fs from "fs";
 
 export default defineConfig({
+  base: "./", // 相対パスを使用
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: "assets/[name]-[hash][extname]", // ファイル名のフォーマット
+      },
+    },
+  },
   plugins: [
     {
       name: "vite-plugin-nunjucks",
