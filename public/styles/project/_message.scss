@@ -1,0 +1,73 @@
+@use "../foundation/common";
+
+.c-message {
+  position: relative;
+  width: 100%;
+  h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: common.$bg;
+    z-index: 100;
+    span {
+      font-family: common.$Jun;
+      font-size: common.$font18pt;
+      color: common.$color-b2;
+    }
+    strong {
+      text-shadow:
+        0 0 1px #000,
+        0 0 2px #000,
+        2px 2px 0 #000,
+        3px 3px 0 #000,
+        4px 4px 0 #000;
+    }
+  }
+
+  .c-message__wrap {
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    img {
+      width: 90%;
+      margin: 1rem auto;
+    }
+    h3 {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      font-size: common.$font16pt;
+      color: common.$color-b3;
+      @media screen and (min-width: 467px) {
+        position: absolute;
+        top: 52%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      span {
+        font-size: common.$font10pt;
+      }
+    }
+  }
+
+  .c-message__tex {
+    width: 90%;
+    margin: 6% auto;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    background-color: common.$bg;
+    p {
+      font-family: common.$font-f;
+      font-size: common.$font14pt;
+      strong {
+        color: common.$color-b3;
+      }
+    }
+  }
+}

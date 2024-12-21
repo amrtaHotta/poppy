@@ -1,0 +1,81 @@
+@use "../foundation/common";
+.p-offer {
+  .p-offer__top {
+    background-color: #fcee21;
+    .p-offer__top-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 94px;
+        height: 94px;
+        font-size: common.$font20pt;
+        border-radius: 50%;
+        background-color: common.$color-r;
+        color: common.$bg;
+      }
+      p {
+        display: flex;
+        flex-direction: column;
+        .med {
+          font-size: common.$font14pt;
+        }
+        .lg {
+          font-size: common.$font16pt;
+        }
+      }
+    }
+  }
+  .p-offer__wrap {
+    width: 100%;
+    height: 100%;
+    padding: 2.81125rem;
+    background-color: common.$color-g;
+    p {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      line-height: 1.6;
+      font-weight: bold;
+      .sm {
+        font-size: common.$font13pt;
+      }
+      .med {
+        font-size: common.$font18pt;
+      }
+      .lg {
+        font-size: common.$font20pt;
+      }
+    }
+    button {
+      width: 100%;
+      margin: 10% auto;
+      padding: 1.5rem 0;
+      border: 1px solid common.$ccc;
+      background-color: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 0 6px common.$ccc;
+      a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        color: common.$font;
+        font-family: common.$Jun;
+        .sub {
+          font-size: common.$font12pt;
+        }
+        .ttl {
+          margin-top: 1.25rem;
+          font-size: common.$font18pt;
+        }
+      }
+    }
+  }
+}

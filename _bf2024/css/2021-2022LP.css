@@ -1,0 +1,3709 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+    background-color: #fff;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fadein {
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: all 1000ms;
+}
+
+.fadein.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+/* bxslider */
+
+ul.bxslider {
+    width: 100%;
+    height: 80vh;
+}
+
+ul.bxslider {
+    width: 100%;
+    height: 80vh;
+}
+
+ul.bxslider li {
+    width: 100%;
+    height: 80vh;
+}
+
+ul.bxslider li img {
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+    object-position: center;
+}
+
+header img.title {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    z-index: 10;
+    top: 16%;
+    left: 10%;
+    position: absolute;
+}
+
+header img.kinu {
+    display: block;
+    margin: 0 auto;
+    z-index: 11;
+    top: 60%;
+    left: 0;
+    width: 62%;
+    position: absolute;
+}
+
+header img.catch {
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+    z-index: 10;
+    top: 60%;
+    right: 0;
+    position: absolute;
+}
+
+header .catch_area {
+    margin-bottom: 5%;
+}
+
+header div.name {
+    background-color: #e7f2f8;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div.name p:first-child {
+    width: 16%;
+}
+
+header div.name p:last-child {
+    width: 70%;
+    margin-left: 5%;
+}
+
+header div.name p img {
+    width: 100%;
+    margin-right: 1rem;
+    display: block;
+}
+
+header div.name p {
+    font-size: 13px;
+    font-family: "じゅん 501", "Jun 501";
+    line-height: 1.5;
+    color: #009fe8;
+}
+
+header div.name p strong {
+    font-size: 22px;
+}
+
+header div.name p em {
+    font-size: 10px;
+    font-style: normal;
+    margin-left: 1rem;
+}
+
+
+/* 各種申し込みエリア */
+
+.entry_area {
+    background-color: #f1f1f1;
+    padding: 3rem 0;
+}
+
+.entry_area h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: "じゅん 501", "Jun 501";
+}
+
+.entry_area div a,
+.block06 .sec_b a,
+.paid a {
+    text-decoration: none;
+    color: #000;
+    font-family: "じゅん 501", "Jun 501";
+    display: block;
+    line-height: 1.25;
+}
+
+.entry_area div a em {
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.entry_area div a:hover {
+    opacity: 0.6;
+}
+
+.entry_area div a:nth-child(1),
+.block06 .sec_b a {
+    border: 1px #ccc solid;
+    width: 90%;
+    margin: 2rem auto 1.5rem;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 22px;
+    background-color: #2cb94c;
+    border-radius: 1rem;
+    box-shadow: 0 0 6px #cccccc;
+    color: #faee00;
+}
+
+.entry_area div a:nth-child(2) span,
+.block06 .sec_b a span {
+    color: #e50012;
+}
+
+.entry_area div a:nth-child(2),
+.paid a {
+    border: 1px #ccc solid;
+    background-color: #f0c250;
+    border-radius: 1rem;
+    display: block;
+    padding: 1.5rem 0;
+    font-size: 18px;
+    margin: 0 0 0 5%;
+    text-align: center;
+    width: 42.5%;
+    float: left;
+    box-shadow: 0 0 6px #cccccc;
+}
+
+.paid a {
+    width: 90%;
+}
+
+.entry_area div a:nth-child(3) {
+    F
+}
+
+.entry_area div a:nth-child(4) {
+    clear: both;
+    text-align: center;
+    display: block;
+    margin: 2rem auto 0;
+    padding: 3rem 0 1rem;
+    font-size: 26px;
+    width: 90%;
+}
+
+.entry_area div a:nth-child(4) span {
+    font-size: 16px;
+}
+
+.entry_area p {
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.index {
+    width: 90%;
+    margin: 1rem auto;
+    border: 1px solid #00a6f7;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.index p {
+    text-align: center;
+    line-height: 2;
+    color: #00a6f7;
+    font-size: 16px;
+}
+
+.index ul {
+    list-style-type: none;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.index ul li a {
+    border-bottom: 1px dotted #00a6f7;
+    text-decoration: none;
+    color: #00a6f7;
+}
+
+
+/* イントロ */
+
+.block01 {
+    width: 100%;
+    margin: auto;
+}
+
+.block01 .sec_a h2 {
+    background-color: #66c5f1;
+    font-size: 19px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-family: "Gothic MB101 Bold";
+    color: #ffff80;
+    line-height: 1.5;
+    position: relative;
+}
+
+.block01 .sec_a h2:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+    border: 30px solid transparent;
+    border-top: 30px solid #66c5f1;
+}
+
+.block01 .sec_a h2 span {
+    color: #fff;
+}
+
+.block01 .sec_a .voice {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block01 .sec_a .voice p {
+    flex-basis: 46%;
+    background-color: #fff;
+    border: 2px dotted #999;
+    padding: 2.5rem 0rem;
+    text-align: center;
+    align-self: center;
+    line-height: 1.5;
+    font-family: "Maru Folk Medium";
+}
+
+.block01 .sec_a .voice p:nth-child(1) {
+    margin-top: -3rem;
+    border-radius: 46%;
+}
+
+.block01 .sec_a .voice p:nth-child(2) {
+    margin-top: 1rem;
+    border-radius: 46%;
+}
+
+.block01 .sec_a .voice p:nth-child(3) {
+    margin-top: 2rem;
+    border-radius: 46%;
+}
+
+.block01 .sec_a .voice p:nth-child(4) {
+    margin-top: 6rem;
+    border-radius: 46%;
+}
+
+.block01 .sec_a img.mama {
+    width: 26%;
+    display: block;
+    margin: -84% auto 10rem;
+}
+
+.quest01 {
+    background-color: #e50012;
+    font-size: 22px;
+    padding: 1.6rem 0;
+    position: relative;
+    margin-top: -3.5rem;
+}
+
+.quest01 h2 {
+    font-family: "Haruhi Gakuen";
+    margin-left: 1rem;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.quest01 img {
+    display: block;
+    width: 32%;
+    position: absolute;
+    right: 0;
+    top: -2.5rem;
+}
+
+.block01 .sec_b {
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+.block01 .sec_b img {
+    width: 90%;
+    margin: 2rem 5%;
+}
+
+.block01 .sec_b h3 {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.block01 .sec_b h3 strong {
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+}
+
+.block01 .sec_b h4 {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 22px;
+    color: #009fe8;
+    font-family: "Gothic MB101 Bold";
+    width: 105%;
+}
+
+.block01 .sec_b h4 span {
+    font-size: 38px;
+}
+
+.block01 .sec_b .prof {
+    display: flex;
+    margin: -4rem 0 0;
+    padding-bottom: 0;
+}
+
+.block01 .sec_b .prof div {
+    width: 49%;
+}
+
+.block01 .sec_b .prof div img {
+    width: 115%;
+    margin-left: -1.5rem;
+}
+
+.block01 .sec_b .prof div:last-child {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 10px;
+    line-height: 1.6;
+    align-self: center;
+}
+
+.block01 .sec_b .prof div h5 {
+    font-size: 11px;
+}
+
+.block01 .sec_c h2,
+.block01 .sec_d h2 {
+    font-size: 22px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-family: "Gothic MB101 Bold";
+    color: #000000;
+    line-height: 1.6;
+}
+
+.block01 .sec_c h2 span,
+.block01 .sec_d h2 span {
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+}
+
+.block01 .sec_c .reason,
+.block01 .sec_c .know,
+.block01 .sec_d .recomend {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.block01 .sec_c .reason p:nth-child(1),
+.block01 .sec_c .reason p:nth-child(2) {
+    font-family: "Gothic MB101 Bold";
+    color: #009fe8;
+    padding-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.block01 .sec_c .reason p:nth-child(3) {
+    font-family: "Gothic MB101 Bold";
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+.block01 .sec_c .reason h3,
+.block01 .sec_c .know h3,
+.block01 .sec_c .know h4,
+.block02 .ans {
+    font-family: "Midashi Go MB31";
+    line-height: 1.8;
+    position: relative;
+    font-size: 18px;
+}
+
+.block01 .sec_d .recomend h3 {
+    font-family: "Midashi Go MB31";
+    line-height: 1.8;
+    position: relative;
+    font-size: 24px;
+    color: red;
+    margin-bottom: 3rem;
+}
+
+.block02 .ans {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.block01 .sec_c .reason h3 span,
+.block01 .sec_c .know h3 span,
+.block01 .sec_c .know h4 span {
+    font-family: "Jun 501";
+    font-size: 24px;
+    color: #009fe8;
+}
+
+.block01 .sec_c .reason h3:before,
+.block01 .sec_c .reason h3:after,
+.block01 .sec_c .know h4:before,
+.block01 .sec_c .know h4:after,
+.block01 .sec_d .recomend h3:before,
+.block01 .sec_d .recomend h3:after,
+.block02 .ans:before,
+.block02 .ans:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background-color: #009fe8;
+}
+
+.block01 .sec_d .recomend h3:before,
+.block01 .sec_d .recomend h3:after {
+    background-color: red;
+}
+
+.block01 .sec_c .reason h3:before,
+.block01 .sec_c .know h4:before,
+.block01 .sec_d .recomend h3:before,
+.block02 .ans:before {
+    left: 0;
+    transform: rotate(60deg);
+}
+
+.block01 .sec_c .reason h3:after,
+.block01 .sec_c .know h4:after,
+.block01 .sec_d .recomend h3:after,
+.block02 .ans:after {
+    right: 0;
+    transform: rotate(-60deg);
+}
+
+.block01 .sec_c .reason img,
+.block01 .sec_c .know img {
+    width: 100%;
+}
+
+.block01 .sec_c .know p {
+    width: 90%;
+    margin: 2rem 5%;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.block01 .sec_c .know h4 {
+    margin: 2rem auto;
+    line-height: 1.6;
+}
+
+.block01 .sec_c .know p.button {
+    font-family: "Gothic MB101 Bold";
+    text-align: center;
+    padding: 1rem 10px;
+    color: #fff;
+    background: #03a9f4;
+    width: 80%;
+    display: block;
+    border-radius: 20px;
+    margin: 1rem auto 2rem;
+    font-size: 18px;
+}
+
+.block01 .sec_c .know p.button span {
+    font-size: 24px;
+    color: yellow;
+}
+
+.block01 .sec_c .know p.close {
+    background: #666;
+}
+
+.block01 .sec_c .point {
+    width: 90%;
+    margin: 3rem auto 0;
+    background-color: #99d9f6;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.block01 .sec_c .point h2 {
+    font-size: 20px;
+    padding: 1rem 0 0.5rem;
+    text-align: center;
+    font-family: "Gothic MB101 Bold";
+    color: #000000;
+    line-height: 1.6;
+    border-bottom: 2px solid #ffff00;
+    width: 90%;
+    margin: 0 auto 2rem;
+}
+
+.block01 .sec_c .point h2:before {
+    display: none;
+}
+
+.block01 .sec_c .point h2 span {
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 1px #000, 2px 2px 0px #000;
+}
+
+.block01 .sec_c .point h2 strong {
+    font-size: 30px;
+    color: #ffff00;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+}
+
+.block01 .sec_c .point p {
+    width: 88%;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.block01 .sec_c .point h3 {
+    font-family: "Gothic MB101 Bold";
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.block01 .sec_c .point h3::first-letter {
+    font-size: 40px;
+}
+
+.block01 .sec_c .point h3 span {
+    color: #ff0;
+}
+
+.block01 .sec_c .point img {
+    width: 90%;
+    margin: 0 auto 2rem;
+}
+
+.block01 .sec_c .point a {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.block01 .sec_c .point a>img {
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.block01 .sec_c .point hr {
+    width: 90%;
+    margin: 0 auto 1.5rem;
+    border: 1px solid #ff0;
+}
+
+.block01 .sec_d .recomend h4 {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 18px;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+}
+
+.block01 .sec_d .recomend h4:before,
+.block01 .sec_d .recomend h4:after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+
+.block01 .sec_d .recomend h4:before {
+    top: 0;
+    left: 0;
+    border-width: 25px 0px 25px 15px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+}
+
+.block01 .sec_d .recomend h4:after {
+    top: 0;
+    right: 0;
+    border-width: 25px 15px 25px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+}
+
+.block01 .sec_d .recomend h5 {
+    font-size: 20px;
+    color: #0092d2;
+    margin-bottom: 2rem;
+}
+
+.block01 .sec_d .recomend .box1,
+.block01 .sec_d .recomend .box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.block01 .sec_d .recomend .box1 img,
+.block01 .sec_d .recomend .box1 p {
+    width: 45%;
+    margin: 0 2%;
+    line-height: 2;
+    align-self: center;
+}
+
+.block01 .sec_d .recomend .box2 img {
+    width: 32%;
+    margin: 0 2%;
+    align-self: center;
+}
+
+.block01 .sec_d .recomend .box2 p {
+    width: 58%;
+    margin: 0 2%;
+    line-height: 2;
+}
+
+.block01 .sec_d .recomend .merit {
+    font-weight: bold;
+    line-height: 1.6;
+    background-image: url("../img/campaign23-24/merit.png");
+    background-repeat: no-repeat;
+    padding: 0 0 0 3.5rem;
+    background-size: 3.8rem;
+    height: 4rem;
+    width: 94%;
+    margin: 2rem auto;
+}
+
+.block01 .sec_d .recomend .merit strong {
+    color: red;
+}
+
+.block01 .sec_d .recomend .column {
+    background-image: url("../img/campaign23-24/fukidashi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.block01 .sec_d .recomend .column p {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    top: 1.3rem;
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+.block01 .sec_d .both {
+    background-image: url("../img/campaign23-24/bg.png");
+    background-color: #fff;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-top: -2.5rem;
+}
+
+.block01 .sec_d .both img {
+    width: 100%;
+}
+
+.block01 .sec_d .both img:nth-child(2) {
+    display: block;
+    width: 90%;
+    margin: 2vh 5%;
+}
+
+
+/* 3つの理由　*/
+
+.block02 .title {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/campaign21-22/slide03.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: -5rem;
+}
+
+.block02 .title div {
+    padding-top: 20%;
+}
+
+.block02 .title p {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Midashi Go MB31";
+    background-color: rgba(255, 231, 0, 0.4);
+}
+
+.block02 .title p span {
+    font-size: 28px;
+}
+
+.block02 .title img {
+    width: 70%;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+    padding-top: 17%;
+}
+
+.block02 h1 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.6;
+    font-family: "Midashi Go MB31";
+}
+
+.block02 h1 strong {
+    font-size: 36px;
+    font-family: "Gothic MB101 Bold";
+    color: #009fe8;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+}
+
+.block02 h1 strong span {
+    font-size: 58px;
+}
+
+.block02 section {
+    width: 92%;
+    margin: 2rem auto 3rem;
+    border: 1px solid #009fe8;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.block02 section div.num {
+    width: 7rem;
+    background-color: #009fe8;
+    text-align: center;
+    padding: 0.6rem;
+    font-family: "Gothic MB101 Bold";
+    color: #fff;
+    margin: -2rem auto 2rem;
+    font-size: 18px;
+    border-radius: 0.5rem;
+}
+
+.block02 section div.num span {
+    font-size: 11.6px;
+}
+
+.block02 section h2 {
+    color: #009fe8;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-family: "Gothic MB101 Bold";
+}
+
+.block02 section h2 strong {
+    font-size: 22px;
+}
+
+.block02 section h2 strong em {
+    font-style: normal;
+    color: #f00;
+}
+
+.block02 section p {
+    text-align: justify;
+    width: 92%;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.block02 section h3 {
+    background-color: #80cff3;
+    font-size: 13px;
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0 auto 1rem;
+    text-align: center;
+    font-family: "Midashi Go MB31";
+}
+
+.block02 section .caption {
+    font-size: 8px;
+    text-align: right;
+}
+
+.block02 section .win {
+    display: flex;
+    background-color: #ffff80;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.block02 section .win h4 {
+    color: #e50012;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e50012;
+    box-shadow: 0 0 1px #e50012, 2px 2px 0px #e50012;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Gothic MB101 Bold";
+    padding: 26px 0;
+}
+
+.block02 section .win p {
+    font-size: 11.6px;
+    text-align: center;
+    font-family: "Midashi Go MB31";
+    margin-bottom: 1rem;
+}
+
+.block02 section .win h5 {
+    text-align: center;
+    font-size: 17.4px;
+    font-family: "Gothic MB101 Bold";
+    color: #e50012;
+}
+
+.block02 section img {
+    width: 90%;
+    margin: 1rem auto;
+    display: block;
+}
+
+.block02 section p.point {
+    font-family: "Jun 501";
+    text-align: center;
+    border: 1px solid #e3007f;
+    padding: 1rem;
+    width: 80%;
+    font-size: 18px;
+}
+
+.block02 section p.point span {
+    color: #ff0000;
+}
+
+.block02 .manabinotobira a {
+    display: block;
+    width: 70%;
+    margin: 1.5rem auto;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #e9678a;
+    color: #fff;
+    border-radius: 1.5rem;
+}
+
+
+/* 7つの無料サービス　*/
+
+.block03 .sec_a {
+    width: 92%;
+    margin: 3rem auto 4rem;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+}
+
+.block03 .sec_a div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block03 .sec_a div:first-child img {
+    width: 25%;
+    margin-top: -20%;
+}
+
+.block03 .sec_a div:last-child img {
+    width: 50%;
+    z-index: 3;
+    margin-bottom: -20%;
+}
+
+.block03 .sec_b {
+    padding-top: 3rem;
+}
+
+.block03 .sec_b h1 {
+    width: 210px;
+    height: 210px;
+    margin: -8rem auto 0;
+    text-align: center;
+    line-height: 1.2;
+    border-radius: 50%;
+    background: #66c5f1;
+    box-shadow: 7px 7px #ffff80;
+    position: relative;
+    padding: 30px;
+    color: #fff;
+    font-family: "Gothic MB101 Bold";
+    font-size: 18px;
+}
+
+.block03 .sec_b h1 span {
+    font-family: "Jun 501";
+}
+
+.block03 .sec_b h1 em {
+    font-size: 58px;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0 #000, 3px 3px 0 #000;
+    color: #ffff80;
+    font-style: normal;
+}
+
+.block03 .sec_b h1 strong {
+    font-size: 34px;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0 #000, 3px 3px 0 #000;
+    color: #ffff80;
+}
+
+.block03 .sec_b h1::before {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    margin-left: -20px;
+    border: 20px solid transparent;
+    border-top: 20px solid #66c5f1;
+    z-index: 3;
+}
+
+.block03 .sec_b h1::after {
+    content: "";
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    margin-left: -10px;
+    border: 20px solid transparent;
+    border-top: 20px solid #ffff80;
+    z-index: 1;
+}
+
+.block03 .sec_b h2 {
+    font-family: "Gothic MB101 Bold";
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.6;
+    font-size: 24px;
+    color: #33b2ed;
+}
+
+.block03 .sec_b h2 strong {
+    font-size: 38px;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0 #000, 3px 3px 0 #000;
+    color: #ffff80;
+}
+
+.block03 .sec_b ul {
+    list-style: none;
+}
+
+.block03 .sec_b ul li {
+    width: 92%;
+    margin: 1rem auto;
+    padding: 1.4rem 0.6rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    font-family: "Gothic MB101 Bold";
+    text-align: center;
+}
+
+
+/*
+.block03 .sec_b ul li:nth-child(n+4){
+font-size: 14px;
+}
+*/
+
+.block03 .sec_b ul li span {
+    display: inline-block;
+    background-color: red;
+    height: 4.5rem;
+    width: 4.5rem;
+    margin-left: 1rem;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    padding-top: 0.8rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.block03 .sec_b ul li em {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: normal;
+    color: #33b2ed;
+    padding-top: 0.5rem;
+    display: inline-block;
+}
+
+.block03 .sec_b ul li sup {
+    font-size: 8px;
+}
+
+.block03 .sec_b p {
+    width: 80%;
+    margin: auto;
+    font-size: 8px;
+    text-align: right;
+    line-height: 1.6;
+}
+
+.block03 .sec_b img.logo {
+    width: 50%;
+    margin: 2rem auto;
+    display: block;
+}
+
+.block03 .sec_b h3 {
+    text-align: center;
+    line-height: 1.6;
+    position: relative;
+    font-size: 18px;
+}
+
+.block03 .sec_b h3 strong {
+    font-family: "Jun 501";
+    font-size: 22px;
+    color: #009fe8;
+}
+
+.block03 .sec_b h3::before,
+.block03 .sec_b h3::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background-color: #009fe8;
+}
+
+.block03 .sec_b h3::before {
+    left: 0;
+    transform: rotate(60deg);
+}
+
+.block03 .sec_b h3::after {
+    right: 0;
+    transform: rotate(-60deg);
+}
+
+.block03 .sec_b img.stuff {
+    width: 100%;
+}
+
+.block03_v,
+.block03_2022 {
+    margin-bottom: 0rem;
+}
+
+.block03 .sec_d h1,
+.block03_v .sec_v h1,
+.block03_2022 .sec_a h1 {
+    background-color: #66c5f1;
+    font-size: 24px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-family: "Gothic MB101 Bold";
+    color: #000;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.block03 .sec_d h1::before,
+.block03_v .sec_v h1::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+    border: 30px solid transparent;
+    border-top: 30px solid #66c5f1;
+}
+
+.block03 .sec_d h1 span,
+.block03_v .sec_v h1 span {
+    font-family: "Jun 501";
+    color: #fff;
+}
+
+.block03 .sec_d h1 strong,
+.block03_v .sec_v h1 strong {
+    font-family: "Gothic MB101 Bold";
+    color: #ffff66;
+    font-size: 36px;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0 #000, 3px 3px 0 #000;
+}
+
+.block03 .sec_d section {
+    width: 85%;
+    margin: 2rem auto -2rem;
+    border: 1px solid #009fe8;
+    background: #fff;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.block03_v .sec_v section {
+    width: 85%;
+    margin: 2rem auto;
+    border: 1px solid #009fe8;
+    background: #fff;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.block03 .sec_d section h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #009fe8;
+    font-family: "Jun 501";
+    line-height: 1.6;
+    padding: 1rem 0;
+}
+
+.block03 .sec_d section p {
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.block03 .sec_d section p.caution {
+    font-size: 8px;
+    text-align: right;
+    margin: -1rem 0 1rem;
+}
+
+.block03 .sec_d section img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.block03 .sec_d section p strong {
+    color: #e50012;
+}
+
+.block03 .sec_d section:last-child {
+    background: #ffff99;
+}
+
+.block03 .sec_d section:last-child h2 {
+    font-size: 30px;
+}
+
+.block03_2022 .sec_a div.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+}
+
+.block03_2022 .sec_a img.kinu {
+    display: block;
+    width: 32%;
+    margin-right: 2%;
+}
+
+.block03_2022 .sec_a img.koushi {
+    display: block;
+    width: 40%;
+}
+
+.block03_2022 .sec_a div.column p {
+    display: block;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.block03_2022 .sec_a div.column p strong {
+    font-size: 16px;
+}
+
+.block03_2022 .sec_a div.arrow01 {
+    margin-top: -0.5rem;
+}
+
+.block03_2022 .sec_a p.tx_01 {
+    text-align: center;
+    margin-bottom: -2rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-family: "Gothic MB101 Bold";
+}
+
+.block03_2022 .sec_a p.tx_02 {
+    font-family: "Gothic MB101 Bold";
+    line-height: 1.8;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 2rem;
+}
+
+
+/* 会員の声　*/
+
+.block04 {
+    margin-top: 5rem;
+}
+
+.block04 h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: -2rem;
+    font-family: "Gothic MB101 Bold";
+    z-index: 2;
+    position: relative;
+}
+
+.block04 h1 span {
+    font-family: "Jun 501";
+    font-size: 24px;
+    color: #009fe8;
+}
+
+.block04 h1 strong {
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000;
+}
+
+.block04 img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.block04 section {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0.5rem 0;
+}
+
+.block04 section .lead {
+    width: 90%;
+    margin: 2rem auto;
+    line-height: 1.6;
+}
+
+.block04 section .voice p {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    align-self: center;
+    line-height: 1.5;
+    font-family: "丸フォーク M", "Maru Folk Medium";
+    border-radius: 1rem;
+    width: 86%;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.block04 section .voice p img {
+    margin: 1rem auto 0;
+}
+
+.block04 section .voice p:after,
+.block04 section p:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.block04 section .voice p:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #fff;
+    border-width: 14px;
+    margin-left: -14px;
+}
+
+.block04 section .voice p:before {
+    border-top-color: #ddd;
+    border-width: 15px;
+    margin-left: -15px;
+}
+
+.block04 section .voice p:nth-of-type(even) {
+    float: right;
+}
+
+.block04 section .voice p:nth-of-type(odd) {
+    float: left;
+}
+
+.block04 section h2 {
+    text-align: center;
+    font-family: "Jun 501";
+    line-height: 1.6;
+    position: relative;
+    font-size: 20px;
+}
+
+.block04 section h2 span {
+    font-size: 28px;
+    color: #009fe8;
+}
+
+.block04 section h2:before,
+.block04 section h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background-color: #009fe8;
+}
+
+.block04 section h2:before {
+    left: 0;
+    transform: rotate(60deg);
+}
+
+.block04 section h2:after {
+    right: 0;
+    transform: rotate(-60deg);
+}
+
+.block04 section img {
+    width: 100%;
+    margin: 1rem 0 -2rem;
+}
+
+.block04 aside {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem 0 0 1rem;
+    line-height: 1.6;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.block04 aside p {
+    text-indent: -1rem;
+}
+
+
+/* 支部長メッセージ　*/
+
+.block05 {
+    margin-top: 3rem;
+}
+
+.block05 h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: -2rem;
+    font-family: "Gothic MB101 Bold";
+}
+
+.block05 h1 span {
+    font-family: "Jun 501";
+    font-size: 26px;
+    color: #009fe8;
+}
+
+.block05 h1 strong {
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0 #000, 3px 3px 0 #000;
+}
+
+.block05 section {
+    width: 100%;
+    padding: 2rem 0 1rem;
+}
+
+.block05 section img {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.block05 section h2 {
+    color: #009fe8;
+    text-align: center;
+    margin-top: -33%;
+    font-family: "Midashi Go MB31";
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.block05 section h2 span {
+    font-size: 12px;
+}
+
+.block05 section div {
+    background: #fff;
+    width: 90%;
+    margin: 6% auto 0;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+.block05 section div p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.block05 section div p strong {
+    color: #009fe8;
+}
+
+
+/* クロージング　*/
+
+.block06 .sec_a {
+    width: 92%;
+    margin: 3rem auto 6rem;
+    padding: 0 0.25rem;
+    border-radius: 1rem;
+}
+
+.block06 .sec_a div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block06 .sec_a .up img {
+    width: 40%;
+}
+
+.block06 .sec_a .down img {
+    width: 46%;
+    z-index: 3;
+    margin-bottom: -10%;
+}
+
+.block06 .sec_b {
+    padding-top: 5rem;
+}
+
+.block06 .sec_b h1 {
+    width: 210px;
+    height: 210px;
+    margin: -8rem auto 0;
+    text-align: center;
+    line-height: 1.4;
+    border-radius: 50%;
+    background: #ffff80;
+    box-shadow: 7px 7px #66c5f1;
+    position: relative;
+    padding-top: 35px;
+    color: #fff;
+    font-family: "Gothic MB101 Bold";
+    font-size: 25px;
+    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 2px 2px 0 #000, 3px 3px 0 #000;
+}
+
+
+/*
+.block06 .sec_b h1 strong{
+width:100%;
+font-size: 34px;
+text-shadow: 
+0px 0px 1px #000,
+2px 2px 0 #000;
+color:#FFFF80;
+}
+*/
+
+.block06 .sec_b h1::before {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    margin-left: -20px;
+    border: 20px solid transparent;
+    border-top: 20px solid #ffff80;
+    z-index: 1;
+}
+
+.block06 .sec_b h1::after {
+    content: "無料見本";
+    position: absolute;
+    font-size: 35px;
+    text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 3px #000, 2px 2px 0 #000, 3px 3px 0 #000, 4px 4px 0 #000;
+    color: #ffff00;
+    width: 150%;
+    bottom: 80px;
+    left: -20%;
+    z-index: 3;
+}
+
+.block06 .sec_b h1::before::after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -10px;
+    border: 20px solid transparent;
+    border-top: 20px solid #66c5f1;
+    z-index: 0;
+}
+
+.block06 .sec_b h2 {
+    font-family: "Gothic MB101 Bold";
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #000;
+}
+
+.block06 .sec_b img {
+    width: 80%;
+    margin: 2rem auto;
+    display: block;
+}
+
+.block06 .sec_b p {
+    text-align: right;
+    font-size: 8px;
+    width: 80%;
+    margin: auto;
+}
+
+.block06 .sec_b div {
+    width: 100%;
+    display: flex;
+}
+
+.block06 .sec_b div h3 {
+    font-size: 16px;
+    font-family: "Jun 501";
+    /*
+background:linear-gradient(0deg,rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 1) 65%,rgba(255, 255, 255, .0) 65%,rgba(255, 255, 255, .0) 100%);*/
+    margin-top: 5rem;
+    line-height: 1.5;
+    display: block;
+    width: 60%;
+}
+
+.block06 .sec_b div h3 strong {
+    font-size: 30px;
+    color: #e50012;
+}
+
+.block06 .sec_b div img {
+    width: 32%;
+    display: block;
+    margin-left: 6%;
+}
+
+.company {
+    background-color: #fbf7e8;
+    padding-bottom: 120px;
+}
+
+.hikaku {
+    background-color: #fbf7e8;
+}
+
+.company h1,
+.hikaku h1 {
+    background-color: #66c5f1;
+    font-size: 19px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-family: "Gothic MB101 Bold";
+    color: #ffff80;
+    line-height: 1.5;
+    position: relative;
+}
+
+.company h1:before,
+.hikaku h1:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+    border: 30px solid transparent;
+    border-top: 30px solid #66c5f1;
+}
+
+.company h2 {
+    text-align: center;
+    margin: 40px auto;
+    line-height: 1.8;
+}
+
+.company p {
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.company img.popy {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.company div.obi {
+    background-color: #e50012;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.company div.obi h3 {
+    color: #fff;
+    padding: 1.5rem 0 1.5rem 1rem;
+    line-height: 1.6;
+    font-family: "Haruhi Gakuen";
+    font-size: 20px;
+}
+
+.company div.obi img {
+    width: 30%;
+    position: absolute;
+    top: -3rem;
+    right: 5%;
+}
+
+.company div.arrow {
+    position: relative;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.company div.arrow::before {
+    animation: arrow 1.5s infinite;
+    border: solid #ff0000;
+    border-width: 0 0 10px 10px;
+    content: "";
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 45%;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+}
+
+.company div .att {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+    font-family: "Haruhi Gakuen";
+}
+
+@keyframes arrow {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+    }
+    60% {
+        transform: rotate(-45deg) translate(-30px, 30px);
+    }
+    0%,
+    60%,
+    100% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+}
+
+.hikaku h1 strong {
+    display: block;
+    font-size: 24px;
+}
+
+.hikaku img {
+    width: 100%;
+}
+
+.hikaku table {
+    width: 94%;
+    background-color: #fff;
+    margin: 0 auto 3rem;
+}
+
+.hikaku table th,
+.hikaku table td {
+    border: 4px solid #fbf7e8;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.hikaku table th {
+    background-color: #66c5f1;
+    font-size: 13px;
+}
+
+.hikaku table td.text {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.hikaku table td.text2 {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.hikaku table td.name {
+    font-size: 15px;
+}
+
+.hikaku table td.name2 {
+    font-size: 18px;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ff0000;
+}
+
+.hikaku table tr.bgc1 {
+    background-color: #dedede;
+}
+
+.hikaku table tr.bgc2,
+.hikaku table td.bgc2 {
+    background-color: #fff;
+}
+
+.hikaku table tr.bgc3 {
+    background-color: #fdefe9;
+}
+
+.hikaku table td .popy {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hikaku table td .yen {
+    font-size: 12px;
+}
+
+.hikaku .comment {
+    width: 94%;
+    margin: auto;
+}
+
+.hikaku .comment p {
+    line-height: 1.6;
+    font-family: "Haruhi Gakuen";
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.hikaku .comment .kinu {
+    position: relative;
+    top: 50px;
+    right: -55%;
+    display: block;
+    width: 45%;
+}
+
+.hikaku aside {
+    width: 90%;
+    margin: 0 auto 4rem;
+    line-height: 1.6;
+    font-size: 13px;
+    text-align: justify;
+    text-indent: -1rem;
+    padding-left: 1rem;
+}
+
+.paid .sec_a {
+    background-image: url("../img/campaign21-22/bg.png");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    padding-top: 10vh;
+}
+
+.paid .sec_a p {
+    text-align: center;
+    line-height: 1.6;
+    font-family: "Gothic MB101 Bold";
+}
+
+.paid .sec_a p:nth-child(1) {
+    font-size: 20px;
+}
+
+.paid .sec_a p:nth-child(2) {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.paid .sec_a p strong {
+    font-size: 24px;
+}
+
+.paid .sec_b {
+    background-image: url("../img/campaign23-24/pen_03.png");
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    padding-top: 25vh;
+    margin-top: 5vh;
+}
+
+.closing {
+    margin: 2rem 0;
+}
+
+.closing p {
+    line-height: 2;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: "Midashi Go MB31";
+}
+
+.closing p strong {
+    font-family: "Gothic MB101 Bold";
+    color: #4ea1cd;
+}
+
+.closing p em {
+    font-style: normal;
+    font-family: "Gothic MB101 Bold";
+    color: #e50012;
+}
+
+.closing img {
+    width: 50%;
+    margin: 2rem auto;
+    display: block;
+}
+
+.closing h1 {
+    text-align: center;
+    line-height: 1.6;
+    position: relative;
+}
+
+.closing h1 strong {
+    font-family: "Jun 501";
+    font-size: 20px;
+    color: #009fe8;
+}
+
+.closing h1:before,
+.closing h1:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background-color: #009fe8;
+}
+
+.closing h1:before {
+    left: 0;
+    transform: rotate(60deg);
+}
+
+.closing h1:after {
+    right: 0;
+    transform: rotate(-60deg);
+}
+
+.closing img.stuff {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer {
+    margin: 2em auto 0;
+    font-weight: 400;
+}
+
+footer ol li a {
+    color: #666;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 1.5rem 0.5rem;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+}
+
+footer .copy {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: #80cff3;
+    padding: 2rem 0;
+}
+
+.pagetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    z-index: 10;
+}
+
+.pagetop a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #9fb7d4;
+    color: #fff;
+    font-size: 22px;
+    line-height: 2.2;
+    text-align: center;
+}
+
+.pagetop a:hover {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #4776af;
+}
+
+
+/* 背景　装飾　*/
+
+.stripe01 {
+    background-color: #f9f2b3;
+    background-image: -webkit-gradient( linear, 0 0, 100% 100%, color-stop(0.25, #f9f9f9), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, #f9f9f9), color-stop(0.75, #f9f9f9), color-stop(0.75, transparent), to(transparent));
+    -webkit-background-size: 5px 5px;
+}
+
+.stripe02 {
+    background-color: #e1eef7;
+    background-image: -webkit-gradient( linear, 0 0, 100% 100%, color-stop(0.25, #ddd), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, #ddd), color-stop(0.75, #ddd), color-stop(0.75, transparent), to(transparent));
+    -webkit-background-size: 6px 6px;
+}
+
+.stripe03 {
+    background-color: #ffffff;
+    background-image: -webkit-gradient( linear, 0 0, 100% 100%, color-stop(0.25, #ddd), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, #ddd), color-stop(0.75, #ddd), color-stop(0.75, transparent), to(transparent));
+    -webkit-background-size: 6px;
+}
+
+.stripe04 {
+    background-color: #ffffff;
+    background-image: -webkit-gradient( linear, 0 0, 100% 100%, color-stop(0.25, #ddd), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, #ddd), color-stop(0.75, #ddd), color-stop(0.75, transparent), to(transparent));
+    -webkit-background-size: 4px;
+}
+
+.stripe05 {
+    background-color: #e5f5fd;
+    background-image: -webkit-gradient( linear, 0 0, 100% 100%, color-stop(0.25, #fff), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, #fff), color-stop(0.75, #fff), color-stop(0.75, transparent), to(transparent));
+    -webkit-background-size: 8px;
+}
+
+.stripe06 {
+    /* 善逸柄    */
+    /*
+background-color: #FFDB23;
+background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #FFE871), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #FFE871),color-stop(.75, #FFE871), color-stop(.75, transparent),to(transparent));
+-webkit-background-size: 8px;*/
+    background: linear-gradient(120deg, transparent 90%, #fff 90%) 0 0 / 40px 40px, linear-gradient(-120deg, transparent 90%, #fff 90%) 0 0 / 40px 40px, linear-gradient(120deg, transparent 90%, #fff 90%) 20px 20px / 40px 40px, linear-gradient(-120deg, transparent 90%, #fff 90%) 20px 20px / 40px 40px, linear-gradient(#ff3, #f63);
+}
+
+.nezuko {
+    position: relative;
+    background: linear-gradient( 90deg, #f69 20px, transparent 20px, transparent calc(100% - 20px), #f69 calc(100% - 20px)) 0 0 / 120px 70px, linear-gradient(0deg, #222 1px, transparent 1px) 0 35px / 80px 70px, #f69;
+}
+
+.nezuko::before,
+.nezuko::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    mix-blend-mode: multiply;
+}
+
+.nezuko::before {
+    background: linear-gradient(90deg, #222 1px, transparent 1px) 0 0 / 60px 140px, linear-gradient( 30deg, transparent 50%, #222 50%, #222 calc(50% + 1px), transparent calc(50% + 1px)) 0 0 / 120px 70px, linear-gradient( -30deg, transparent 50%, #222 50%, #222 calc(50% + 1px), transparent calc(50% + 1px)) 0 0 / 120px 70px, linear-gradient( 90deg, transparent 40px, #fff 40px, #fff calc(100% - 40px), transparent calc(100% - 40px)) 0 0 / 120px 70px, linear-gradient(0deg, #222 1px, transparent 1px) 0 0 / 40px 70px;
+}
+
+.nezuko::after {
+    background: linear-gradient(90deg, #fff 20px, transparent 20px) 20px 0 / 60px 70px, linear-gradient( -60deg, transparent calc(50% - 0.5px), #222 calc(50% - 0.5px), #222 calc(50% + 0.5px), transparent calc(50% + 0.5px)) 0 0 / 40px 70px, linear-gradient( 60deg, transparent calc(50% - 0.5px), #222 calc(50% - 0.5px), #222 calc(50% + 0.5px), transparent calc(50% + 0.5px)) 0 0 / 40px 70px;
+}
+
+.dot01 {
+    background-size: 20px 20px;
+    margin: 0 auto;
+    background-color: #fffccc;
+    background-image: radial-gradient(#ffd800 15%, transparent 20%), radial-gradient(#ffd800 15%, transparent 20%);
+    background-position: 0 0, 10px 10px;
+}
+
+.dot02 {
+    background-size: 10px 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: radial-gradient(#ddd 15%, transparent 20%), radial-gradient(#ddd 15%, transparent 20%);
+    background-position: 0 0, 5px 5px;
+}
+
+
+/* アニメーション　*/
+
+.bound {
+    animation: poyon 1.2s 5;
+}
+
+@keyframes poyon {
+    0% {
+        transform: scale(1, 1) translate(0%, 0%);
+    }
+    15% {
+        transform: scale(0.9, 0.9) translate(0%, 5%);
+    }
+    30% {
+        transform: scale(1.3, 0.8) translate(0%, 10%);
+    }
+    50% {
+        transform: scale(0.8, 1.3) translate(0%, -10%);
+    }
+    70% {
+        transform: scale(1.1, 0.9) translate(0%, 5%);
+    }
+    100% {
+        transform: scale(1, 1) translate(0%, 0%);
+    }
+}
+
+.bound2 {
+    animation: mochimochi 1.5s infinite;
+}
+
+@keyframes mochimochi {
+    0% {
+        transform: scale(1, 0.8);
+    }
+    20% {
+        transform: scale(0.8, 1.1);
+    }
+    90% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1, 0.8);
+    }
+}
+
+.count2 {
+    animation-iteration-count: 2;
+}
+
+.count3 {
+    animation-iteration-count: 3;
+}
+
+
+/*マーカー　
+
+.marker01{
+ background: linear-gradient(transparent 50%, rgba(255,239,122,1.00) 0%);
+}*/
+
+.marker01.active {
+    background-position: -100% 0.5em;
+}
+
+.marker01 {
+    background-image: -webkit-linear-gradient( left, transparent 50%, rgb(255, 250, 153) 50%);
+    background-image: -moz-linear-gradient( left, transparent 50%, rgb(255, 250, 153) 50%);
+    background-image: -ms-linear-gradient( left, transparent 50%, rgb(255, 250, 153) 50%);
+    background-image: -o-linear-gradient( left, transparent 50%, rgb(255, 250, 153) 50%);
+    background-image: linear-gradient( left, transparent 50%, rgb(255, 250, 153) 50%);
+    background-repeat: repeat-x;
+    background-size: 200% 0.8em;
+    background-position: 0 0.5em;
+    transition: all 2s ease;
+    font-weight: bold;
+}
+
+
+/*カッコ　*/
+
+.parenthesis {
+    position: relative;
+    width: 94%;
+    padding: 2rem 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 2rem auto;
+}
+
+.parenthesis::before,
+.parenthesis::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parenthesis::before {
+    top: 0;
+    left: 0;
+    border-top: 1px solid #555;
+    border-left: 1px solid #555;
+}
+
+.parenthesis::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #555;
+}
+
+
+/*矢印　*/
+
+.arrow01 {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 2rem auto;
+    border-top: solid 12px #009fe8;
+    border-right: solid 12px #009fe8;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    border-radius: 8%;
+}
+
+
+/* 吹き出し　*/
+
+.fukidasi-right,
+.fukidasi-left {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 15px 1.5em 0;
+    padding: 0.5rem;
+    max-width: 100%;
+    color: #555;
+    background: #fff;
+    border: solid 1px #555;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: "Midashi Go MB31";
+}
+
+.fukidasi-right span {
+    font-size: 20px;
+    color: #009fe8;
+    font-family: "Gothic MB101 Bold";
+}
+
+.fukidasi-left strong {
+    font-size: 21px;
+    color: #e50012;
+    font-family: "Gothic MB101 Bold";
+}
+
+.fukidasi-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-left: 12px solid #fff;
+    z-index: 2;
+}
+
+.fukidasi-right:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-left: 13px solid #555;
+    z-index: 1;
+}
+
+.fukidasi-left:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+    z-index: 2;
+}
+
+.fukidasi-left:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-right: 13px solid #555;
+    z-index: 1;
+}
+
+
+/*テキスト装飾*/
+
+.kakomi01 {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+}
+
+.kakomi02 {
+    font-size: 20px;
+    color: #ffff00;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+}
+
+.kakomi03 {
+    color: #fff;
+    text-shadow: 0 0 1px #000, 0 0 2px #000, 2px 2px 0px #000, 3px 3px 0px #000;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 800px) {
+    header img.title {
+        width: 80%;
+        top: 15%;
+        left: 10%;
+    }
+    header img.kinu {
+        top: 50%;
+        width: 60%;
+    }
+    header img.catch {
+        width: 40%;
+        top: 55%;
+    }
+    header div.name p:first-child {
+        width: 18%;
+    }
+    header div.name p:last-child {
+        width: auto;
+        margin-left: 5%;
+    }
+    header div.name p {
+        font-size: 24px;
+    }
+    header div.name p strong {
+        font-size: 42px;
+    }
+    header div.name p em {
+        font-size: 16px;
+    }
+    .block01 .sec_a h2 {
+        font-size: 32px;
+    }
+    .block01 .sec_a .voice p {
+        border: 3px dotted #999;
+        padding: 4rem 0rem;
+        font-size: 20px;
+    }
+    .block01 .sec_a .voice p:nth-child(1) {
+        margin-top: -2rem;
+    }
+    .block01 .sec_a .voice p:nth-child(2) {
+        margin-top: 4rem;
+    }
+    .block01 .sec_a .voice p:nth-child(3) {
+        margin-top: -2rem;
+    }
+    .block01 .sec_a .voice p:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .block01 .sec_a img.mama {
+        width: 32%;
+        margin: -65% auto 10rem;
+    }
+    .quest01 {
+        font-size: 32px;
+        padding: 1.6rem 0;
+        margin-top: -3.5rem;
+    }
+    .quest01 h2 {
+        margin-left: 3rem;
+    }
+    .quest01 img {
+        width: 32%;
+        top: -4rem;
+    }
+    .block01 .sec_b h3 {
+        font-size: 30px;
+    }
+    .block01 .sec_b h3 strong {
+        font-size: 36px;
+    }
+    .block01 .sec_b h4 {
+        font-size: 32px;
+    }
+    .block01 .sec_b .prof div:last-child {
+        padding: 2rem;
+        font-size: 16px;
+    }
+    .block01 .sec_b .prof div h5 {
+        font-size: 20px;
+    }
+    .block01 .sec_c h2 {
+        font-size: 26px;
+    }
+    .block01 .sec_c h2 span {
+        font-size: 36px;
+    }
+    .block01 .sec_c .reason p:nth-child(1),
+    .block01 .sec_c .reason p:nth-child(2) {
+        font-size: 30px;
+    }
+    .block01 .sec_c .reason p:nth-child(3) {
+        font-size: 32px;
+    }
+    .block01 .sec_c .reason h3,
+    .block01 .sec_c .know h3,
+    .block01 .sec_c .know h4 {
+        font-size: 28px;
+    }
+    .block01 .sec_c .reason h3 span,
+    .block01 .sec_c .know h3 span,
+    .block01 .sec_c .know h4 span {
+        font-size: 40px;
+    }
+    .block01 .sec_c .point h2 {
+        font-size: 28px;
+        padding: 2rem 0 2rem;
+    }
+    .block01 .sec_c .point h2 span,
+    .block01 .sec_c .point h2 strong {
+        font-size: 38px;
+    }
+    .block01 .sec_c .point p {
+        font-size: 18px;
+    }
+    .block01 .sec_c .point h3 {
+        font-size: 30px;
+    }
+    .block01 .sec_c .point h3::first-letter {
+        font-size: 48px;
+    }
+    .block01 .sec_c .point img {
+        width: 75%;
+        margin: 0 auto 3rem;
+    }
+    .block01 .sec_c .point a {
+        font-size: 18px;
+    }
+    .block01 .sec_c .point a>img {
+        width: 90%;
+    }
+    .block02 .title p {
+        font-size: 38px;
+    }
+    .block02 .title p span {
+        font-size: 34px;
+    }
+    .block02 .title img {
+        width: 70%;
+        max-width: 300px;
+        margin: auto;
+        display: block;
+        padding-top: 17%;
+    }
+    .block02 h1 {
+        font-size: 32px;
+    }
+    .block02 h1 strong {
+        font-size: 48px;
+    }
+    .block02 h1 strong span {
+        font-size: 68px;
+    }
+    .block02 section div.num {
+        width: 12rem;
+        padding: 1rem;
+        margin: -3rem auto 2rem;
+        font-size: 24px;
+    }
+    .block02 section div.num span {
+        font-size: 16px;
+    }
+    .block02 section h2 {
+        font-size: 28px;
+    }
+    .block02 section h2 strong,
+    .block02 section div.ans span {
+        font-size: 36px;
+    }
+    .block02 section p {
+        font-size: 18px;
+    }
+    .block02 section h3 {
+        font-size: 18px;
+        padding: 1rem;
+        margin: 4rem auto;
+    }
+    .block02 section .caption {
+        font-size: 13px;
+    }
+    .block02 section .win {
+        display: flex;
+        background-color: #ffff80;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .block02 section .win h4 {
+        width: 200px;
+        height: 200px;
+        box-shadow: 0 0 1px #e50012, 0 0 2px #e50012, 2px 2px 0px #e50012, 3px 3px 0px #e50012, 4px 4px 0px #e50012;
+        font-size: 48px;
+        padding: 46px 0;
+        margin-right: 1rem;
+    }
+    .block02 section .win p {
+        font-size: 19px;
+        width: auto;
+    }
+    .block02 section .win h5 {
+        font-size: 30px;
+    }
+    .block02 section img {
+        width: 75%;
+    }
+    .block02 section img.w100 {
+        width: 100%;
+    }
+    .block02 section:last-child img {
+        width: 30%;
+    }
+    .block02 section p.point {
+        font-size: 24px;
+    }
+    block03_2022 .sec_a div.column {
+        width: 98%;
+    }
+    .block03_2022 .sec_a img.kinu {
+        width: 45%;
+    }
+    .block03_2022 .sec_a img.koushi {
+        width: 30%;
+    }
+    .block03_2022 .sec_a div.column p {
+        font-size: 18px;
+    }
+    .block03_2022 .sec_a div.column p strong {
+        font-size: 24px;
+    }
+    .block03_2022 .sec_a div.arrow01 {
+        margin-top: -1rem;
+    }
+    .block03_2022 .sec_a p.tx_01 {
+        font-size: 18px;
+    }
+    .block03_2022 .sec_a p.tx_02 {
+        font-size: 32px;
+    }
+    .company {
+        background-color: #fbf7e8;
+        padding-bottom: 120px;
+    }
+    .company h1,
+    .hikaku h1 {
+        font-size: 30px;
+    }
+    .company h2 {
+        font-size: 30px;
+    }
+    .company img.popy {
+        width: 60%;
+    }
+    .company div.obi {
+        margin-top: 4rem;
+    }
+    .company div.obi h3 {
+        padding: 1.5rem 0 1.5rem 3rem;
+        font-size: 30px;
+    }
+    .company div.obi img {
+        width: 30%;
+    }
+    .company div.arrow {
+        margin: 4rem auto 6rem;
+    }
+    .company div.arrow::before {
+        animation: arrow 1.5s infinite;
+        border: solid #ff0000;
+        border-width: 0 0 10px 10px;
+        content: "";
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        left: 48%;
+        transform: rotate(-45deg);
+        width: 50px;
+        height: 50px;
+        z-index: 100;
+    }
+    .company div .att {
+        font-size: 30px;
+        font-weight: bold;
+        color: #ff0000;
+        font-family: "Haruhi Gakuen";
+    }
+    .block03 .sec_a {
+        margin: 8rem auto 10rem;
+    }
+    .block03 .sec_a div:first-child img {
+        width: 20%;
+        margin-top: -20%;
+    }
+    .block03 .sec_a div:last-child img {
+        width: 40%;
+        margin-bottom: -5%;
+    }
+    .block03 .sec_b {
+        padding-top: 4rem;
+    }
+    .block03 .sec_b h1 {
+        width: 300px;
+        height: 300px;
+        margin: -12rem auto 0;
+        box-shadow: 12px 12px #ffff80;
+        padding: 42px 30px;
+        font-size: 24px;
+    }
+    .block03 .sec_b h1 em {
+        font-size: 72px;
+    }
+    .block03 .sec_b h1 strong {
+        font-size: 52px;
+    }
+    .block03 .sec_b h2 {
+        margin-top: 3rem;
+        font-size: 32px;
+    }
+    .block03 .sec_b h2 strong {
+        font-size: 48px;
+    }
+    .block03 .sec_b ul li {
+        margin: 2rem auto;
+        padding: 1.8rem 0.6rem;
+        font-size: 24px;
+    }
+    .block03 .sec_b ul li:nth-child(n+4) {
+        padding: 1rem 0.6rem;
+        font-size: 16px;
+    }
+    .block03 .sec_b ul li sup {
+        font-size: 13px;
+    }
+    .block03 .sec_b p {
+        font-size: 13px;
+    }
+    .block03 .sec_b img.logo {
+        width: 40%;
+        margin: 4rem auto;
+    }
+    .block03 .sec_b h3 {
+        font-size: 30px;
+    }
+    .block03 .sec_b h3 strong {
+        font-size: 42px;
+    }
+    .block03 .sec_b img.stuff {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .block03 .sec_d {
+        margin-top: -7rem;
+        padding-bottom: 5rem;
+    }
+    .block03 .sec_d h1 {
+        font-size: 30px;
+    }
+    .block03 .sec_d h1 strong {
+        font-size: 46px;
+    }
+    .block03 .sec_d section h2 {
+        font-size: 24px;
+        margin: 2rem 0;
+    }
+    .block03 .sec_d section p {
+        font-size: 16px;
+        width: 90%;
+        margin: 2rem auto;
+        line-height: 1.8;
+    }
+    .block03 .sec_d section p.caution {
+        font-size: 13px;
+    }
+    .block03 .sec_d section img {
+        width: 90%;
+        display: block;
+        margin: 0 auto 2rem;
+    }
+    .block03 .sec_d section:last-child h2 {
+        font-size: 46px;
+    }
+    .hikaku h1 strong {
+        font-size: 42px;
+    }
+    .hikaku table {
+        width: 94%;
+    }
+    .hikaku table th,
+    .hikaku table td {
+        font-size: 18px;
+    }
+    .hikaku table th {
+        background-color: #66c5f1;
+        font-size: 20px;
+    }
+    .hikaku table td.text {
+        font-size: 16px;
+    }
+    .hikaku table td.text2 {
+        font-size: 18px;
+    }
+    .hikaku table td.name {}
+    .hikaku table td.name2 {
+        font-size: 20px;
+    }
+    .hikaku table tr.bgc1 {
+        background-color: #dedede;
+    }
+    .hikaku table tr.bgc2,
+    .hikaku table td.bgc2 {
+        background-color: #fff;
+    }
+    .hikaku table tr.bgc3 {
+        background-color: #fdefe9;
+    }
+    .hikaku table td .popy {
+        font-size: 32px;
+    }
+    .hikaku table td .yen {
+        font-size: 16px;
+    }
+    .hikaku .comment {
+        width: 80%;
+    }
+    .hikaku .comment p {
+        border-radius: 20px;
+        font-size: 22px;
+    }
+    .hikaku .comment .kinu {
+        top: -20px;
+    }
+    .block04 {
+        margin-top: 5rem;
+    }
+    .block04 h1 {
+        font-size: 42px;
+        margin-bottom: -2.5rem;
+    }
+    .block04 h1 span {
+        font-size: 34px;
+    }
+    .block04 section {
+        padding: 2rem 5% 0;
+    }
+    .block04 section .lead {
+        font-size: 18px;
+    }
+    .block04 section .voice p {
+        font-size: 20px;
+        margin-bottom: 4rem;
+    }
+    .block04 section h2 {
+        font-size: 30px;
+    }
+    .block04 section h2 span {
+        font-size: 38px;
+    }
+    .block04 section h2:before,
+    .block04 section h2:after {
+        width: 150px;
+    }
+    .block04 section img {
+        width: 100%;
+        margin: 1rem 0 -2rem;
+    }
+    .block05 {
+        margin-top: 5rem;
+    }
+    .block05 h1 {
+        font-size: 42px;
+        margin-bottom: -2.5rem;
+    }
+    .block05 h1 span {
+        font-size: 36px;
+    }
+    .block05 section {
+        width: 100%;
+        padding: 2rem 0 1rem;
+    }
+    .block05 section img {
+        width: 90%;
+        margin: 1rem auto 0;
+        display: block;
+    }
+    .block05 section h2 {
+        margin-top: -32%;
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    .block05 section h2 span {
+        font-size: 18px;
+    }
+    .block05 section div {
+        padding: 2rem;
+    }
+    .block05 section div p {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .block06 .sec_a {
+        margin: 5rem auto 15rem;
+    }
+    .block06 .sec_a div:first-child img {
+        width: 30%;
+        margin-top: -10%;
+    }
+    .block06 .sec_a div:last-child img {
+        width: 30%;
+        margin-bottom: -5%;
+    }
+    .block06 .sec_b {
+        padding-top: 6rem;
+    }
+    .block06 .sec_b h1 {
+        width: 300px;
+        height: 300px;
+        margin: -12rem auto 0;
+        box-shadow: 12px 12px #66c5f1;
+        padding-top: 40px;
+        font-size: 36px;
+    }
+    .block06 .sec_b h1::after {
+        content: "無料見本";
+        font-size: 46px;
+        bottom: 130px;
+        left: -25%;
+    }
+    .block06 .sec_b h2 {
+        margin: 3rem 0;
+        font-size: 24px;
+    }
+    .block06 .sec_b img {
+        width: 60%;
+    }
+    .block06 .sec_b p {
+        font-size: 13px;
+    }
+    .block06 .sec_b div h3 {
+        font-size: 32px;
+        margin-top: 6rem;
+    }
+    .block06 .sec_b div h3 strong {
+        font-size: 42px;
+    }
+    .block06 .sec_b div img {
+        width: 60%;
+    }
+    .paid .sec_a {
+        height: 60vh;
+        padding-top: 15vh;
+    }
+    .paid .sec_a p span {
+        font-size: 42px;
+    }
+    .paid .sec_a p:nth-child(1) {
+        font-size: 32px;
+    }
+    .paid .sec_a p:nth-child(2) {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .paid .sec_a p strong {
+        font-size: 42px;
+    }
+    .paid .sec_b {
+        height: 80vh;
+        padding-top: 30vh;
+    }
+    .paid .sec_b a {
+        display: block;
+        padding: 2rem 0;
+        font-size: 32px;
+        margin: auto 5%;
+        width: 90%;
+        color: #fff;
+    }
+    .closing {
+        margin: -6rem 0 3rem;
+    }
+    .closing p {
+        line-height: 2;
+        font-size: 20px;
+    }
+    .closing img {
+        width: 30%;
+    }
+    .closing h1 {
+        font-size: 24px;
+    }
+    .closing h1 strong {
+        font-size: 32px;
+    }
+    .closing h1:before,
+    .closing h1:after {
+        width: 150px;
+    }
+    .fukidasi-right,
+    .fukidasi-left {
+        margin: 2rem 1rem 2rem;
+        padding: 1rem;
+        font-size: 20px;
+    }
+    .fukidasi-right span {
+        font-size: 28px;
+    }
+    .fukidasi-left strong {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    header img.title {
+        max-width: 44%;
+        top: 15%;
+        left: 28%;
+    }
+    header img.kinu {
+        top: 38%;
+        width: 42%;
+    }
+    header img.catch {
+        width: 30%;
+        top: 48%;
+    }
+    header div.name p:first-child {
+        width: 10%;
+    }
+    header div.name p:last-child {
+        width: auto;
+        margin-left: 5%;
+    }
+    header div.name p {
+        font-size: 24px;
+    }
+    header div.name p strong {
+        font-size: 42px;
+    }
+    header div.name p em {
+        font-size: 16px;
+    }
+    .index {
+        width: 80%;
+    }
+    .index p {
+        text-align: center;
+        line-height: 2;
+        color: #66c4f2;
+        font-size: 20px;
+    }
+    .index ul {
+        font-size: 16px;
+    }
+    main {
+        width: 800px;
+        margin: auto;
+    }
+    .entry_area h1 {
+        font-size: 32px;
+        margin-bottom: 4rem;
+    }
+    .entry_area div a:nth-child(1) {
+        padding: 3rem 0;
+        font-size: 32px;
+    }
+    .entry_area div a:nth-child(2) {
+        padding: 2rem 0;
+        font-size: 24px;
+    }
+    .entry_area div a:nth-child(3) {
+        padding: 2rem 0;
+        font-size: 24px;
+    }
+    .entry_area div a:nth-child(4) {
+        clear: both;
+        text-align: center;
+        display: block;
+        margin: 2rem auto 0;
+        padding: 3rem 0 1rem;
+        font-size: 26px;
+        width: 90%;
+    }
+    .entry_area div a:nth-child(4) span {
+        font-size: 16px;
+    }
+    .block01 .sec_a h2 {
+        font-size: 32px;
+    }
+    .block01 .sec_a .voice p {
+        border: 3px dotted #999;
+        padding: 4rem 0rem;
+        font-size: 20px;
+    }
+    .block01 .sec_a .voice p:nth-child(1) {
+        margin-top: -2rem;
+    }
+    .block01 .sec_a .voice p:nth-child(2) {
+        margin-top: 4rem;
+    }
+    .block01 .sec_a .voice p:nth-child(3) {
+        margin-top: -2rem;
+    }
+    .block01 .sec_a .voice p:nth-child(4) {
+        margin-top: 4rem;
+    }
+    .block01 .sec_a img.mama {
+        width: 30%;
+        margin: -48% auto 10%;
+    }
+    .quest01 {
+        font-size: 32px;
+        padding: 1.6rem 0;
+        margin-top: -3.5rem;
+    }
+    .quest01 h2 {
+        margin-left: 3rem;
+    }
+    .quest01 img {
+        display: block;
+        width: 32%;
+        position: absolute;
+        right: 0;
+        top: -5rem;
+    }
+    .block01 .sec_b>div:first-child {
+        font-size: 18px;
+    }
+    .block01 .sec_b h3 {
+        font-size: 22px;
+    }
+    .block01 .sec_b h4 {
+        font-size: 32px;
+    }
+    .block01 .sec_b .prof div:last-child {
+        padding: 2rem;
+        font-size: 16px;
+    }
+    .block01 .sec_b .prof div h5 {
+        font-size: 20px;
+    }
+    .block01 .sec_c h2 {
+        font-size: 26px;
+    }
+    .block01 .sec_c h2 span {
+        font-size: 36px;
+    }
+    .block01 .sec_c .reason p:nth-child(1),
+    .block01 .sec_c .reason p:nth-child(2) {
+        font-size: 30px;
+    }
+    .block01 .sec_c .reason p:nth-child(3) {
+        font-size: 32px;
+    }
+    .block01 .sec_c .reason h3,
+    .block01 .sec_c .know h4 {
+        font-size: 28px;
+    }
+    .block01 .sec_c .reason h3 span,
+    .block01 .sec_c .know h4 span,
+    .block02 .ans span {
+        font-size: 40px;
+    }
+    .block01 .sec_c .point h2 {
+        font-size: 28px;
+        padding: 2rem 0 2rem;
+    }
+    .block01 .sec_c .point h2 span,
+    .block01 .sec_c .point h2 strong {
+        font-size: 38px;
+    }
+    .block01 .sec_c .point p {
+        font-size: 18px;
+    }
+    .block01 .sec_c .point h3 {
+        font-size: 30px;
+    }
+    .block01 .sec_c .point h3::first-letter {
+        font-size: 48px;
+    }
+    .block01 .sec_c .point img {
+        width: 75%;
+        margin: 0 auto 3rem;
+    }
+    .block01 .sec_c .point a {
+        font-size: 18px;
+    }
+    .block01 .sec_c .point a>img {
+        width: 90%;
+    }
+    .block01 .sec_c .reason img,
+    .block01 .sec_c .know img {
+        width: 80%;
+    }
+    .block02 .title {
+        height: 80vh;
+    }
+    .block02 h1 {
+        font-size: 32px;
+    }
+    .block02 h1 strong {
+        font-size: 48px;
+    }
+    .block02 h1 strong span {
+        font-size: 68px;
+    }
+    .block02 section div.num {
+        width: 12rem;
+        padding: 1rem;
+        margin: -3rem auto 2rem;
+        font-size: 24px;
+    }
+    .block02 section div.num span {
+        font-size: 16px;
+    }
+    .block02 section h2 {
+        font-size: 28px;
+    }
+    .block02 section h2 strong {
+        font-size: 36px;
+    }
+    .block02 section p {
+        font-size: 18px;
+    }
+    .block02 section h3 {
+        font-size: 18px;
+        padding: 1rem;
+        margin: 4rem auto;
+    }
+    .block02 section .caption {
+        font-size: 13px;
+    }
+    .block02 section .win {
+        display: flex;
+        background-color: #ffff80;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .block02 section .win h4 {
+        width: 200px;
+        height: 200px;
+        box-shadow: 0 0 1px #e50012, 0 0 2px #e50012, 2px 2px 0px #e50012, 3px 3px 0px #e50012, 4px 4px 0px #e50012;
+        font-size: 48px;
+        padding: 46px 0;
+        margin-right: 1rem;
+    }
+    .block02 section .win p {
+        font-size: 19px;
+        width: auto;
+    }
+    .block02 section .win h5 {
+        font-size: 30px;
+    }
+    .block02 section img {
+        width: 75%;
+    }
+    .block02 section img.w100 {
+        width: 100%;
+    }
+    .block02 section:last-child img {
+        width: 30%;
+    }
+    .block02 section p.point {
+        font-size: 24px;
+    }
+    .block03_2022 .sec_a div.column {
+        width: 98%;
+    }
+    .block03_2022 .sec_a img.kinu {
+        width: 45%;
+    }
+    .block03_2022 .sec_a img.koushi {
+        width: 30%;
+    }
+    .block03_2022 .sec_a div.column p {
+        font-size: 18px;
+    }
+    .block03_2022 .sec_a div.column p strong {
+        font-size: 24px;
+    }
+    .block03_2022 .sec_a div.arrow01 {
+        margin-top: -1rem;
+    }
+    .block03_2022 .sec_a p.tx_01 {
+        font-size: 18px;
+    }
+    .block03_2022 .sec_a p.tx_02 {
+        font-size: 32px;
+    }
+    .company {
+        background-color: #fbf7e8;
+        padding-bottom: 120px;
+    }
+    .company h1,
+    .hikaku h1 {
+        font-size: 30px;
+    }
+    .company h2 {
+        font-size: 30px;
+    }
+    .company img.popy {
+        width: 60%;
+    }
+    .company div.obi {
+        margin-top: 4rem;
+    }
+    .company div.obi h3 {
+        padding: 1.5rem 0 1.5rem 3rem;
+        font-size: 30px;
+    }
+    .company div.obi img {
+        width: 30%;
+    }
+    .company div.arrow {
+        margin: 4rem auto 6rem;
+    }
+    .company div.arrow::before {
+        animation: arrow 1.5s infinite;
+        border: solid #ff0000;
+        border-width: 0 0 10px 10px;
+        content: "";
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        left: 48%;
+        transform: rotate(-45deg);
+        width: 50px;
+        height: 50px;
+        z-index: 100;
+    }
+    .company div .att {
+        font-size: 30px;
+        font-weight: bold;
+        color: #ff0000;
+        font-family: "Haruhi Gakuen";
+    }
+    .block03 .sec_a {
+        margin: 8rem auto 10rem;
+    }
+    .block03 .sec_a div:first-child img {
+        width: 20%;
+        margin-top: -20%;
+    }
+    .block03 .sec_a div:last-child img {
+        width: 40%;
+        margin-bottom: -5%;
+    }
+    .block03 .sec_b {
+        padding-top: 4rem;
+    }
+    .block03 .sec_b h1 {
+        width: 300px;
+        height: 300px;
+        margin: -12rem auto 0;
+        box-shadow: 12px 12px #ffff80;
+        padding: 42px 30px;
+        font-size: 24px;
+    }
+    .block03 .sec_b h1 em {
+        font-size: 72px;
+    }
+    .block03 .sec_b h1 strong {
+        font-size: 52px;
+    }
+    .block03 .sec_b h2 {
+        margin-top: 3rem;
+        font-size: 32px;
+    }
+    .block03 .sec_b h2 strong {
+        font-size: 48px;
+    }
+    .block03 .sec_b ul li {
+        margin: 2rem auto;
+        padding: 1.8rem 0.6rem;
+        font-size: 26px;
+    }
+    .block03 .sec_b ul li:nth-child(n+4) {
+        font-size: 16px;
+        padding: 1rem 0.6rem;
+    }
+    .block03 .sec_b ul li sup {
+        font-size: 13px;
+    }
+    .block03 .sec_b p {
+        font-size: 13px;
+    }
+    .block03 .sec_b img.logo {
+        width: 40%;
+        margin: 4rem auto;
+    }
+    .block03 .sec_b h3 {
+        font-size: 32px;
+        margin-top: 2rem;
+    }
+    .block03 .sec_b h3 strong {
+        font-size: 48px;
+    }
+    .block03 .sec_b img.stuff {
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+    .block03 .sec_d {
+        margin-top: -7rem;
+        padding-bottom: 5rem;
+    }
+    .block03 .sec_d h1,
+    .block03_v .sec_v h1,
+    .block03_2022 .sec_a h1 {
+        font-size: 30px;
+    }
+    .block03 .sec_d h1 strong {
+        font-size: 46px;
+    }
+    .block03 .sec_d section h2 {
+        font-size: 24px;
+        margin: 2rem 0;
+    }
+    .block03 .sec_d section p {
+        font-size: 16px;
+        width: 90%;
+        margin: 2rem auto;
+        line-height: 1.8;
+    }
+    .block03 .sec_d section p.caution {
+        font-size: 13px;
+    }
+    .block03 .sec_d section img {
+        width: 90%;
+        display: block;
+        margin: 0 auto 2rem;
+    }
+    .block03 .sec_d section:last-child h2 {
+        font-size: 46px;
+    }
+    .hikaku h1 strong {
+        font-size: 42px;
+    }
+    .hikaku table {
+        width: 94%;
+    }
+    .hikaku table th,
+    .hikaku table td {
+        font-size: 18px;
+    }
+    .hikaku table th {
+        background-color: #66c5f1;
+        font-size: 20px;
+    }
+    .hikaku table td.text {
+        font-size: 16px;
+    }
+    .hikaku table td.text2 {
+        font-size: 18px;
+    }
+    .hikaku table td.name {}
+    .hikaku table td.name2 {
+        font-size: 20px;
+    }
+    .hikaku table tr.bgc1 {
+        background-color: #dedede;
+    }
+    .hikaku table tr.bgc2,
+    .hikaku table td.bgc2 {
+        background-color: #fff;
+    }
+    .hikaku table tr.bgc3 {
+        background-color: #fdefe9;
+    }
+    .hikaku table td .popy {
+        font-size: 32px;
+    }
+    .hikaku table td .yen {
+        font-size: 16px;
+    }
+    .hikaku .comment {
+        width: 80%;
+    }
+    .hikaku .comment p {
+        border-radius: 20px;
+        font-size: 22px;
+    }
+    .hikaku .comment .kinu {
+        top: -20px;
+    }
+    .block04 {
+        margin-top: 5rem;
+    }
+    .block04 h1 {
+        font-size: 42px;
+        margin-bottom: -2.5rem;
+    }
+    .block04 h1 span {
+        font-size: 34px;
+    }
+    .block04 section {
+        padding: 2rem 5% 0;
+    }
+    .block04 section .lead {
+        font-size: 18px;
+    }
+    .block04 section .voice p {
+        font-size: 20px;
+        margin-bottom: 4rem;
+    }
+    .block04 section h2 {
+        font-size: 30px;
+    }
+    .block04 section h2 span {
+        font-size: 38px;
+    }
+    .block04 section h2:before,
+    .block04 section h2:after {
+        width: 150px;
+    }
+    .block04 section img {
+        width: 100%;
+        margin: 1rem 0 -2rem;
+    }
+    .block05 {
+        margin-top: 5rem;
+    }
+    .block05 h1 {
+        font-size: 42px;
+        margin-bottom: -2.5rem;
+    }
+    .block05 h1 span {
+        font-size: 36px;
+    }
+    .block05 section {
+        width: 100%;
+        padding: 2rem 0 1rem;
+    }
+    .block05 section img {
+        width: 90%;
+        margin: 1rem auto 0;
+        display: block;
+    }
+    .block05 section h2 {
+        margin-top: -32%;
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    .block05 section h2 span {
+        font-size: 18px;
+    }
+    .block05 section div {
+        padding: 2rem;
+    }
+    .block05 section div p {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+    .block06 .sec_a {
+        margin: 5rem auto 8rem;
+    }
+    .block06 .sec_a .up img {
+        width: 30%;
+        margin-top: -10%;
+    }
+    .block06 .sec_a .down img {
+        width: 50%;
+        margin-bottom: -5%;
+    }
+    .block06 .sec_b {
+        padding-top: 8rem;
+    }
+    .block06 .sec_b h1 {
+        width: 300px;
+        height: 300px;
+        margin: -12rem auto 0;
+        box-shadow: 12px 12px #66c5f1;
+        padding-top: 40px;
+        font-size: 36px;
+    }
+    .block06 .sec_b h1::after {
+        content: "無料見本";
+        font-size: 46px;
+        bottom: 130px;
+        left: -25%;
+    }
+    .block06 .sec_b h2 {
+        margin: 3rem 0;
+        font-size: 24px;
+    }
+    .block06 .sec_b img {
+        width: 40%;
+    }
+    .block06 .sec_b p {
+        font-size: 13px;
+    }
+    .block06 .sec_b div h3 {
+        font-size: 32px;
+        margin-top: 6rem;
+    }
+    .block06 .sec_b div h3 strong {
+        font-size: 42px;
+    }
+    .block06 .sec_b div img {
+        width: 60%;
+    }
+    .closing {
+        margin: 3rem 0;
+    }
+    .closing p {
+        line-height: 2;
+        font-size: 20px;
+    }
+    .paid .sec_a {
+        height: 60vh;
+        padding-top: 10vh;
+    }
+    .paid .sec_a p span {
+        font-size: 42px;
+    }
+    .paid .sec_a p:nth-child(1) {
+        font-size: 32px;
+    }
+    .paid .sec_a p:nth-child(2) {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .paid .sec_a p strong {
+        font-size: 42px;
+    }
+    .paid .sec_b {
+        height: 80vh;
+        padding-top: 40vh;
+    }
+    .paid .sec_b a {
+        display: block;
+        padding: 2rem 0;
+        font-size: 32px;
+        margin: auto 5%;
+        width: 90%;
+        color: #fff;
+    }
+    .closing img {
+        width: 30%;
+    }
+    .closing h1 {
+        font-size: 24px;
+    }
+    .closing h1 strong {
+        font-size: 32px;
+    }
+    .closing h1:before,
+    .closing h1:after {
+        width: 150px;
+    }
+    .fukidasi-right,
+    .fukidasi-left {
+        margin: 2rem 1rem 2rem;
+        padding: 1rem;
+        font-size: 20px;
+    }
+    .fukidasi-right span {
+        font-size: 28px;
+    }
+    .fukidasi-left strong {
+        font-size: 32px;
+    }
+}
+
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    margin-bottom: 4rem;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.price h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.price .yoji td:nth-child(odd) {
+    background-color: #fbcce5;
+}
+
+.price .shogaku td:nth-child(odd) {
+    background-color: #cf9;
+}
+
+.price .chugaku td:nth-child(odd) {
+    background-color: #cdecfb;
+}
+
+.price table strong {
+    font-size: 1.3rem;
+}
+
+.price table span {
+    font-size: 0.8rem;
+}
+
+.price table td {
+    width: 50%;
+}
+
+.price img {
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+.block_present {
+    padding-top: 2rem;
+}
+
+.block_present img {
+    width: 100%;
+}
+
+.block_present img.graph {
+    padding: 1rem 0.5rem 2rem;
+}
+
+.notes_CP {
+    padding: 2rem 1rem;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.notes_CP h5,
+.notes_CP h6,
+.notes_CP p {
+    padding-bottom: 1rem;
+}

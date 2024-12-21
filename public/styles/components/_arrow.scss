@@ -1,0 +1,86 @@
+@use "../foundation/common";
+.c-arrow {
+  width: 66.8px;
+  height: 36.8px;
+  margin: 0 auto;
+  position: relative;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .arrow-line {
+    opacity: 0; // 初期状態は非表示
+  }
+
+  // 1本目の矢印
+  .line-3 {
+    animation-delay: 0s; // 最初に表示
+    animation: showArrows 2s ease-in-out infinite; // 全体で6秒のループアニメーション
+  }
+  // 2本目の矢印
+  .line-2 {
+    animation-delay: 0s; // 1秒後に表示
+    animation: showArrows2 2s ease-in-out infinite; // 全体で6秒のループアニメーション
+  }
+  // 3本目の矢印
+  .line-1 {
+    animation-delay: 0s; // 2秒後に表示
+    animation: showArrows3 2s ease-in-out infinite; // 全体で6秒のループアニメーション
+  }
+
+  @keyframes showArrows {
+    0% {
+      opacity: 0; // 非表示
+    }
+    35% {
+      opacity: 1; // 表示開始
+    }
+    65% {
+      opacity: 1; // 表示を維持
+    }
+    90% {
+      opacity: 1; // 全て非表示
+    }
+    100% {
+      opacity: 0; // 全て非表示
+    }
+  }
+
+  @keyframes showArrows2 {
+    0% {
+      opacity: 0; // 非表示
+    }
+    35% {
+      opacity: 0; // 表示開始
+    }
+    65% {
+      opacity: 1; // 表示を維持
+    }
+    90% {
+      opacity: 1; // 全て非表示
+    }
+    100% {
+      opacity: 0; // 全て非表示
+    }
+  }
+
+  @keyframes showArrows3 {
+    0% {
+      opacity: 0; // 非表示
+    }
+    35% {
+      opacity: 0; // 表示開始
+    }
+    65% {
+      opacity: 0; // 表示を維持
+    }
+    90% {
+      opacity: 1; // 全て非表示
+    }
+    100% {
+      opacity: 0; // 全て非表示
+    }
+  }
+}

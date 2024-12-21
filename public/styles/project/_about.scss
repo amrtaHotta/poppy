@@ -1,0 +1,104 @@
+@use "../foundation/common";
+.p-about {
+  width: 100%;
+  .black-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: common.$font;
+    div {
+      font-size: 1.25rem;
+      font-family: common.$Gothic;
+      color: common.$bg;
+    }
+  }
+  .p-about__wrap {
+    width: 90%;
+    margin: 0 auto;
+    p {
+      font-family: common.$font-f;
+      padding-top: 10vh;
+    }
+    .p-about__wrap-ttl {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      img {
+        width: auto;
+        height: auto;
+        max-width: 18.85714%;
+        aspect-ratio: 1;
+        margin-right: 1rem;
+      }
+      h2 {
+        width: 80%;
+        color: common.$color-r;
+        span {
+          color: common.$font;
+        }
+      }
+    }
+    .p-about__wrap-ttl-sec {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem auto;
+      position: relative;
+      font-size: 1.375rem;
+      font-family: common.$Gothic;
+      &::before {
+        content: url("data:image/svg+xml;charset=utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20id%3D%22layer%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20viewBox%3D%220%200%2048%2030%22%3E%20%3Cdefs%3E%20%3Cstyle%3E%20.st0%20%7B%20fill%3A%20%23bf9c46%3B%20%7D%20%3C%2Fstyle%3E%20%3C%2Fdefs%3E%20%3Cg%20id%3D%22g12373%22%3E%20%3Cpath%20id%3D%22path27637%22%20class%3D%22st0%22%20d%3D%22M24%2C5s-3.9%2C13.3-8%2C13.8c-4.1.6-12-5.2-12-5.2l4.6%2C11.5h30.9l4.6-11.5s-7.9%2C5.8-12%2C5.2c-4.1-.6-8-13.8-8-13.8h0Z%22%2F%3E%20%3Cpath%20id%3D%22path27639%22%20class%3D%22st0%22%20d%3D%22M8.7%2C26.2h30.7v2.8H8.7v-2.8Z%22%2F%3E%20%3Cpath%20id%3D%22path27641%22%20class%3D%22st0%22%20d%3D%22M12.6%2C10.6s.6%2C3%2C.8%2C6.4c1%2C.3%2C1.9.5%2C2.5.4.3%2C0%2C1-.5%2C1.7-1.4-2.7-2.4-4.9-5.4-4.9-5.4ZM35.4%2C10.6s-2.2%2C3-4.9%2C5.4c.7.9%2C1.5%2C1.4%2C1.7%2C1.4.6%2C0%2C1.4%2C0%2C2.5-.4.2-3.4.8-6.4.8-6.4Z%22%2F%3E%20%3Cg%20id%3D%22g12363%22%3E%20%3Cpath%20id%3D%22circle27647%22%20class%3D%22st0%22%20d%3D%22M26%2C3c0%2C1.1-.9%2C2-2%2C2h0c-1.1%2C0-2-.9-2-2h0c0-1.1.9-2%2C2-2h0c1.1%2C0%2C2%2C.9%2C2%2C2h0Z%22%2F%3E%20%3Cpath%20id%3D%22circle27651%22%20class%3D%22st0%22%20d%3D%22M47.4%2C12.2c0%2C1.1-.9%2C2-2%2C2h0c-1.1%2C0-2-.9-2-2h0c0-1.1.9-2%2C2-2h0c1.1%2C0%2C2%2C.9%2C2%2C2h0Z%22%2F%3E%20%3Cpath%20id%3D%22circle27655%22%20class%3D%22st0%22%20d%3D%22M.6%2C12.2c0%2C1.1.9%2C2%2C2%2C2h0c1.1%2C0%2C2-.9%2C2-2h0c0-1.1-.9-2-2-2h0c-1.1%2C0-2%2C.9-2%2C2h0Z%22%2F%3E%20%3Cpath%20id%3D%22circle27704%22%20class%3D%22st0%22%20d%3D%22M11.9%2C8c-.8%2C0-1.4.6-1.4%2C1.4%2C0%2C.8.6%2C1.4%2C1.4%2C1.4.8%2C0%2C1.4-.6%2C1.4-1.4h0c0-.8-.6-1.4-1.4-1.4h0ZM36.1%2C8c-.8%2C0-1.4.6-1.4%2C1.4%2C0%2C.8.6%2C1.4%2C1.4%2C1.4.8%2C0%2C1.4-.6%2C1.4-1.4h0c0-.8-.6-1.4-1.4-1.4h0Z%22%2F%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E");
+        width: 46.879px;
+      }
+    }
+    .p-about__wrap-box {
+      position: relative;
+      text-align: center;
+      img {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .bos {
+        position: absolute;
+        right: -12.5%;
+        bottom: 11%;
+        width: 38%;
+        margin: 0;
+        z-index: 3;
+        figcaption {
+          font-size: 9.82px;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      .grades {
+        h3 {
+          font-size: 1.375rem;
+          span {
+            position: relative;
+            color: #ffff00;
+            font-size: 3.125rem;
+            &::before {
+              position: absolute;
+              top: -0.35em;
+              /* 少し上に移動 */
+              content: "15賞";
+              color: common.$color-r;
+              font-size: 3.125rem;
+              z-index: 2;
+            }
+          }
+        }
+      }
+    }
+  }
+}

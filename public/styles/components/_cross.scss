@@ -1,0 +1,25 @@
+@use "../foundation/common";
+.c-cross {
+  display: block;
+  position: relative;
+  width: 47.9112px;
+  height: 47.9112px;
+  margin: 0 auto;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 47.9112px;
+    background: common.$font; // デフォルト色
+    transform: translate(-50%, -50%);
+  }
+  &::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  &::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

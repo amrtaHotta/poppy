@@ -1,0 +1,40 @@
+@use "../foundation/common";
+.u-ball {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0% auto;
+  z-index: 0;
+}
+
+.u-blueBall {
+  --blue-color: 158 219 246;
+  background: radial-gradient(
+    circle,
+    rgb(var(--blue-color)),
+    rgb(var(--blue-color) / 0%)
+  );
+  width: min(50%, 400px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  filter: blur(15px);
+  z-index: 1;
+}
+
+.u-pinkBall {
+  --pink-color: 245 158 165;
+  background: radial-gradient(
+    circle,
+    rgb(var(--pink-color)),
+    rgb(var(--pink-color) / 0%)
+  );
+  width: min(50%, 400px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  filter: blur(15px);
+  z-index: 2;
+}

@@ -1,0 +1,200 @@
+@use "../foundation/common";
+.p-qa {
+  width: 100%;
+  padding-top: 5vh;
+  h2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &::before {
+      content: "";
+      position: absolute;
+      top: -1rem;
+      width: 40px;
+      height: 4px;
+      background: linear-gradient(
+        to right,
+        common.$color-b3 50%,
+        common.$color-r 50%
+      );
+    }
+    .p-qa__main {
+      display: flex;
+      .tex-blue {
+        color: common.$color-b3;
+        font-size: common.$font40pt;
+      }
+      .tex {
+        padding-top: 1.525rem;
+        font-size: common.$font20pt;
+      }
+      .tex-red {
+        font-size: common.$font40pt;
+      }
+    }
+    .sub {
+      font-size: common.$font20pt;
+    }
+  }
+  .p-qa__wrap {
+    display: flex;
+    flex-direction: column;
+    .p-qa__wrap-question {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: common.$color-b3;
+      .question {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        .icon {
+          width: 15%;
+          font-size: 38px;
+        }
+        .ttl {
+          width: 85%;
+          font-size: common.$font14pt;
+        }
+      }
+    }
+    .p-qa__wrap-answer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 1rem;
+      color: common.$color-r;
+      background-color: common.$color-p;
+      .answer {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        .icon {
+          width: 15%;
+          font-size: 38px;
+        }
+        .ttl {
+          width: 85%;
+          font-size: common.$font14pt;
+        }
+      }
+      p {
+        width: 90%;
+        margin: 1rem auto;
+        color: common.$font;
+        font-family: common.$font-f;
+        font-size: common.$font12pt;
+      }
+      img {
+        width: 80%;
+      }
+      table {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        tbody {
+          tr {
+            color: common.$font;
+            font-size: common.$font12pt;
+            border-top: common.$font 0.1px solid;
+            &:last-child {
+              border-bottom: common.$font 0.1px solid;
+            }
+            th {
+              width: 25%;
+              background-color: common.$color-g;
+              border-right: common.$font 0.1px solid;
+              div {
+                display: flex;
+                flex-direction: column;
+                .sm {
+                  font-size: common.$font10pt;
+                }
+                .lg {
+                  font-size: common.$font13pt;
+                }
+              }
+            }
+            .red {
+              color: common.$bg;
+              background-color: common.$color-r;
+            }
+            td {
+              font-family: common.$font-f;
+              padding: 0.6rem;
+              background-color: common.$bg;
+            }
+            .main-table {
+              display: flex;
+              flex-direction: column;
+              .med {
+                font-size: common.$font14pt;
+              }
+              .lg {
+                .tex-red {
+                  font-size: common.$font16pt;
+                }
+              }
+            }
+          }
+        }
+      }
+      .answer-offer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        height: auto;
+        padding: 0.5rem 0.3rem;
+        margin: 0.5rem auto;
+        border-radius: 0.8rem;
+        background-color: common.$bg;
+        color: common.$font;
+        .med {
+          font-size: common.$font16pt;
+        }
+        .sm {
+          font-size: common.$font14pt;
+        }
+      }
+      .answer-staff {
+        position: relative;
+        text-align: center;
+        font-family: common.$font-f;
+        color: common.$font;
+        font-size: common.$font13pt;
+        &::before,
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          width: 1.75rem;
+          height: 1px;
+          background-color: common.$font;
+          transform: translateY(-50%) rotate(45deg);
+        }
+        &::before {
+          left: -2rem;
+        }
+        &::after {
+          right: -2rem;
+          transform: translateY(-50%) rotate(-45deg);
+        }
+        .answer-staff-wrap {
+          .lg {
+            font-size: common.$font18pt;
+            color: common.$color-b3;
+            font-family: common.$Jun;
+          }
+          .sm {
+            font-size: common.$font13pt;
+          }
+        }
+      }
+    }
+  }
+}

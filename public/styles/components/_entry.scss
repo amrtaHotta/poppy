@@ -1,0 +1,99 @@
+@use "../foundation/common";
+.c-entry {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 3rem 0;
+  .c-entry__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    font-family: common.$Jun;
+    h2 {
+      text-align: center;
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    .c-entry__wrap-box {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      .entry-btn {
+        display: flex;
+        flex-direction: column;
+        color: common.$font;
+        opacity: 1;
+        transition: common.$transition;
+        .sub {
+          font-size: 0.875rem;
+        }
+        .ttl {
+          font-size: 1.375rem;
+        }
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+      .main-btn {
+        width: 100%;
+        margin: 2rem auto 1.5rem;
+        padding: 2rem 0;
+        text-align: center;
+        background-color: #2cb94c;
+        border-radius: 1rem;
+        border: 1px solid common.$ccc;
+        box-shadow: 0 0 6px common.$ccc;
+        color: #faee00;
+        text-decoration: none;
+      }
+      .left-btn {
+        width: 42.5%;
+        max-width: 340px;
+        padding: 1.5rem 0;
+        border: 1px solid common.$ccc;
+        background-color: #f0c250;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        box-shadow: 0 0 6px common.$ccc;
+      }
+      .right-btn {
+        width: 42.5%;
+        max-width: 340px;
+        padding: 1.5rem 0;
+        margin-right: 0;
+        margin-left: auto;
+        border: 1px solid common.$ccc;
+        background-color: #fff;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        float: right;
+        box-shadow: 0 0 6px common.$ccc;
+      }
+    }
+    .c-entry__wrap-tel {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: common.$font;
+      padding: 3rem 0 1rem;
+      div {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 1rem;
+        a {
+          color: common.$font;
+          font-size: 1.625rem;
+        }
+      }
+      span {
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@use "./common";
+html {
+  letter-spacing: 0.0625em;
+  line-height: 1.5;
+  font-feature-settings: "palt" 1;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: common.$Gothic;
+  background-color: common.$bg;
+  overflow-x: hidden;
+  color: common.$font;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+figure {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  min-height: 100dvh;
+  background-color: #f2ebda;
+  .index {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 667px;
+    overflow-x: hidden;
+    z-index: 2;
+    background-color: common.$bg;
+    @media screen and (min-width: 667px) {
+      width: 425px;
+      box-shadow: 0 0 6px common.$ccc;
+      margin-left: calc(100vw - 425px);
+    }
+    @media screen and (min-width: 960px) {
+      box-shadow: 0 0 6px common.$ccc;
+      margin-left: auto;
+      margin-right: 3vw;
+    }
+  }
+}

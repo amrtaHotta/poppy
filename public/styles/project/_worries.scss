@@ -1,0 +1,76 @@
+@use "../foundation/common";
+.p-worries {
+  position: relative;
+  width: 100%;
+  &:first-child {
+    ul {
+      background-color: common.$color-b3;
+    }
+  }
+  &:last-child {
+    background: rgb(250, 204, 208);
+    background: linear-gradient(
+      180deg,
+      rgba(250, 204, 208, 1) 0%,
+      rgba(255, 255, 255, 1) 90%
+    );
+  }
+  h2 {
+    font-size: common.$font22pt;
+    text-align: center;
+    color: common.$color-b3;
+  }
+  ul {
+    position: relative;
+    margin: 0 auto;
+    padding: 5%;
+    li {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      padding: 0.8rem;
+      color: common.$bg;
+      font-size: common.$font16pt;
+      border-bottom: solid 1px common.$bg;
+      &::before {
+        content: url("../../../public/images/check.svg");
+        margin-right: 0.5rem;
+      }
+    }
+    .arrow {
+      position: absolute;
+      top: auto;
+      right: 0;
+      bottom: -26px;
+      left: 0;
+      margin: 0 auto;
+      text-align: center;
+      width: 0;
+      height: 0;
+      border-top: 26px solid common.$color-b3;
+      border-left: 80px solid transparent;
+      border-right: 80px solid transparent;
+      z-index: 10;
+    }
+  }
+  .p-worries__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    &:last-child {
+      padding-top: 10vh;
+    }
+    h2 {
+      font-size: common.$font24pt;
+      color: common.$font;
+    }
+    h3 {
+      font-size: common.$font13pt;
+      font-size: 0.8125rem;
+    }
+  }
+}

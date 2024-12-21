@@ -1,0 +1,40 @@
+@use "../foundation/common";
+.l-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+
+  ul {
+    padding-top: 0.5rem;
+    li {
+      a {
+        color: #666;
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        padding: 1.5rem 0.5rem;
+        border-top: 1px solid #ddd;
+        font-size: 16px;
+        &:last-child {
+          border-bottom: 1px solid #ddd;
+        }
+      }
+    }
+  }
+  .l-footer__copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    margin-top: 5%;
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: #80cff3;
+    padding: 2rem 0;
+  }
+}

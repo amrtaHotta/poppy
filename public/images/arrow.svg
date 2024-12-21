@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="layer" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 66.8 36.8">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: red;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polyline class="st0" points="66.8 13.5 33.4 36.8 0 13.5"/>
+  <polyline class="st0" points="66.8 7.2 33.4 30.5 0 7.2"/>
+  <polyline class="st0" points="66.8 0 33.4 23.3 0 0"/>
+</svg>

@@ -1,0 +1,92 @@
+.c-triangle {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.c-bg-cream {
+  background-color: #f2ebda;
+}
+.stripe01 {
+  background-color: #f9f2b3;
+  background-image: linear-gradient(
+    45deg,
+    #f9f9f9 25%,
+    transparent 25%,
+    transparent 50%,
+    #f9f9f9 50%,
+    #f9f9f9 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 5px 5px;
+}
+
+.stripe02 {
+  background-color: #e1eef7;
+  background-image: linear-gradient(
+    45deg,
+    #ddd 25%,
+    transparent 25%,
+    transparent 50%,
+    #ddd 50%,
+    #ddd 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 6px 6px;
+}
+
+.stripe03 {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+    #ddd 25%,
+    transparent 25%,
+    transparent 50%,
+    #ddd 50%,
+    #ddd 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 6px 6px;
+}
+
+.stripe04 {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+    #ddd 25%,
+    transparent 25%,
+    transparent 50%,
+    #ddd 50%,
+    #ddd 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 4px 4px;
+}
+
+.stripe05 {
+  background-color: #e5f5fd;
+  background-image: linear-gradient(
+    45deg,
+    #fff 25%,
+    transparent 25%,
+    transparent 50%,
+    #fff 50%,
+    #fff 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 8px 8px;
+}
+
+.stripe06 {
+  background:
+    linear-gradient(120deg, transparent 90%, #fff 90%) 0 0 / 40px 40px,
+    linear-gradient(-120deg, transparent 90%, #fff 90%) 0 0 / 40px 40px,
+    linear-gradient(120deg, transparent 90%, #fff 90%) 20px 20px / 40px 40px,
+    linear-gradient(-120deg, transparent 90%, #fff 90%) 20px 20px / 40px 40px,
+    linear-gradient(#ff3, #f63);
+}

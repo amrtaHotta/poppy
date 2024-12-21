@@ -1,0 +1,68 @@
+@use "../foundation/common";
+.c-logo__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  z-index: 5;
+
+  .c-logo__flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.first,
+    &.third {
+      width: 40%;
+    }
+    &.sec {
+      width: 20%;
+    }
+    &.third {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main-logo {
+      min-width: 120px;
+    }
+    .club-logo {
+      min-width: 70px;
+      max-width: 100px;
+    }
+    .club-tex {
+      &:nth-of-type(1) {
+        color: common.$color-r;
+      }
+      &:nth-of-type(3) {
+        color: common.$bg;
+      }
+    }
+
+    .cross {
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 30px;
+
+      // デフォルトスタイル
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 2px;
+        height: 30px;
+        background: common.$font; // デフォルト色
+        transform: translate(-50%, -50%);
+      }
+      &::before {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      &::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+    }
+  }
+}

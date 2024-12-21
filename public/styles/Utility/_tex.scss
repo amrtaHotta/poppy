@@ -1,0 +1,46 @@
+@use "../foundation/common";
+.u-tex-red {
+  color: #e50012;
+}
+
+.u-tex-blue {
+  color: common.$color-b3;
+}
+
+.u-tex-w {
+  color: common.$bg;
+}
+
+.marker01 {
+  background-image: linear-gradient(
+    to right,
+    transparent 50%,
+    rgb(255, 250, 153) 50%
+  );
+  background-repeat: repeat-x;
+  background-size: 200% 0.8em;
+  background-position: 0 0.5em;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-position 1.5s ease;
+}
+
+.marker01.active {
+  background-position: -100% 0.5em;
+}
+
+.marker02 {
+  background-image: linear-gradient(
+    to right,
+    transparent 50%,
+    rgb(0, 159, 232) 2%
+  );
+  background-repeat: repeat-x;
+  background-size: 200% 0.5em;
+  background-position: 0 0.5em;
+  transition: background-position 1.5s ease;
+}
+
+.marker02.active {
+  background-position: -100% 0.5em;
+}

@@ -1,0 +1,24 @@
+{
+    "name": "poppy",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "prettier": "^3.4.2",
+        "vite": "^6.0.3"
+    },
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "ejs": "^3.1.10",
+        "gsap": "^3.12.5",
+        "jquery": "^3.7.1",
+        "nunjucks": "^3.2.4",
+        "vite-plugin-ejs": "^1.7.0",
+        "vite-plugin-html": "^3.2.2"
+    }
+}
